@@ -211,16 +211,16 @@ const part1 = () => {
 };
 
 const part2 = () => {
-    for (let i = 0, m = nums[i]; i < nums.length; m = nums[++i]) {
-      for (let j = i+1, n = nums[j]; j < nums.length; n = nums[++j]) {
-        for (let k = j+1, p = nums[k]; k < nums.length; p = nums[++k]) {
-          if (m + n + p === 2020) {
-            return m * n * p
-          }
+  for (let i = 0, m = nums[i]; i < nums.length; m = nums[++i]) {
+    for (let j = i+1, n = nums[j]; j < nums.length; n = nums[++j]) {
+      for (let k = j+1, p = nums[k]; k < nums.length; p = nums[++k]) {
+        if (m + n + p === 2020) {
+          return m * n * p
         }
       }
     }
-  };
+  }
+};
 
 console.log(part1());
 console.log(part2());

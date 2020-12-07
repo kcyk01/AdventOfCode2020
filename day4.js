@@ -1171,7 +1171,7 @@ const part2 = () => {
     valid++;
   }
   return valid;
-}
+};
 
 console.log(part1());
 console.log(part2());

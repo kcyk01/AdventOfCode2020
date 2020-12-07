@@ -808,7 +808,7 @@ const halfRange = (min, max, code) => {
     return [min, min + half - 1];
   }
   return [min + half, max];
-}
+};
 
 const findSeatScore = (seat) => {
   let row = 0, col = 0;
@@ -832,7 +832,7 @@ const findSeatScore = (seat) => {
   }
 
   return row * 8 + col;
-}
+};
 
 const part1 = () => {
   let highest = 0;

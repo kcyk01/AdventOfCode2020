@@ -337,7 +337,7 @@ const part1 = (x, y) => {
 
 const part2 = () => {
   return part1(1, 1) * part1(3, 1) * part1(5, 1) * part1(7, 1) * part1(1, 2);
-}
+};
 
 console.log(part1(3, 1));
 console.log(part2());
